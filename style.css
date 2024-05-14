@@ -1,0 +1,59 @@
+*
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: rgb(41, 86, 157); /* Background color of the navigation bar */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    padding-right: 100px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 50px;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 15px 20px;
+    color: white; /* Text color of the navigation links */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Background color of the navigation links on hover */
+}
+
+.content {
+    padding: 20px;
+}
+
+.navbar {
+    height: 80px; /* Adjust the height of the navbar as needed */
+    background-color: rgb(41, 86, 157); /* Background color of the navbar */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Vertically center the content */
+    justify-content: space-between; /* Space out the logo and menu items */
+}
+
+.logo-container {
+    width: 150px; /* Adjust width as needed */
+    height: 150px; /* Adjust height as needed */
+}
+
+.logo-container img {
+    display: block; /* Ensures the image is displayed as a block element */
+    width: 100%; /* Make the image fill the container's width */
+    height: auto; /* Let the height adjust automatically to maintain aspect ratio */
+    max-width: 100%; /* Ensure the image doesn't exceed the container's width */
+    max-height: 100%; /* Ensure the image doesn't exceed the container's height */
+}
+
