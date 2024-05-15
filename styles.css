@@ -29,7 +29,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #555; /* Background color of the navigation links on hover */
+    background-color: rgb(79, 141, 240); /* Background color of the navigation links on hover */
 }
 
 .content {
@@ -55,6 +55,18 @@ nav ul li a:hover {
     height: auto; /* Let the height adjust automatically to maintain aspect ratio */
     max-width: 100%; /* Ensure the image doesn't exceed the container's width */
     max-height: 100%; /* Ensure the image doesn't exceed the container's height */
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  font-size: 25px;
+  color: white;
+}
+
+.icon:hover {
+  color: grey/* Change color on hover */
 }
 
 *** About us page ****
@@ -102,5 +114,98 @@ nav ul li a:hover {
     border: 3px solid rgb(41, 86, 157); /* Add a bottom border */
     padding-left: 20px;
     margin-top: 10px;
-    padding: -10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow-wrap: break-word;
+    inline-size: 600px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(41, 86, 157);
+    color: white;
+    
+    
+  }
+
+  .intro2 {
+    border: 3px solid rgb(41, 86, 157); /* Add a bottom border */
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-left: 1100px;
+    margin-right: 20px;
+    overflow-wrap: break-word;
+    inline-size: 600px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(41, 86, 157);
+    color: white;
+    
+  }
+
+  .intro3 {
+    border: 3px solid rgb(41, 86, 157); /* Add a bottom border */
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow-wrap: break-word;
+    inline-size: 600px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(41, 86, 157);
+    color: white;
+    
+  }
+
+  .intro4 {
+    border: 3px solid rgb(41, 86, 157); /* Add a bottom border */
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-left: 1100px;
+    margin-right: 20px;
+    overflow-wrap: break-word;
+    inline-size: 600px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(41, 86, 157);
+    color: white;
+    
+  }
+
+
+  .background {
+    background-color: rgb(175, 198, 211)
+  }
+  /* Button styles */
+#meet-team-btn {
+    background-color: rgb(79, 141, 240);
+    border: none;
+    color: white;
+    padding: 15px 32px; /* Padding around text */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  /* Hover effect */
+  #meet-team-btn:hover {
+    background-color: rgb(41, 86, 157);
+  }
+  
+  /* Anchor (link) styles */
+  #meet-team-btn a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  /* Adjust anchor styles on hover */
+  #meet-team-btn a:hover {
+    color: white; /* Link color on hover */
+    text-decoration: none; /* Remove underline on hover */
+  }
+  
+  .image-container img[alt="Chase"] {
+    height: auto;
+    max-height: 600px; /* Adjust this value as needed */
+    width: auto;
+    max-width: 100%; /* This ensures the image scales proportionally */
   }
